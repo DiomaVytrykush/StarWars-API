@@ -6,9 +6,9 @@ var people = function () {
     xhttp.open("GET", "https://swapi.co/api/people?page=" + page, true);
     xhttp.responseType = 'json';
     xhttp.onload = function () {
-        let status = xhttp.status;
+        var status = xhttp.status;
         if (status == 200) {
-            for (let hero of xhttp.response.results) {
+            for (var hero of xhttp.response.results) {
                 content.innerHTML += `<p> ${hero.name} </p>`
             };
         };

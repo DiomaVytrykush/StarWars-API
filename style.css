@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: dimgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-weight: 700;
+    color: yellow;
+    font-size: 25px;
+}
+
+#btn{
+    padding: 15px 25px;
+    background-color: yellow;
+    border: none;
+    border-radius: 6%;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content p{
+    text-align: center;
+}
